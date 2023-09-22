@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;600;700&family=Poppins:wght@400;500&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.bg-body-tertiary{
+    background-color: #2874f0 !important;
+}
+.navbar-brand img{
+    width: 120px;
+}
+.search_form{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .23);
+}
+input.me-2.form-control {
+    width: 317px;
+    border-radius: 0;
+    padding: 0 16px;
+    margin-right: 0 !important;
+    border: none;
+}
+button.btn-light.btn.btn-primary{
+    width: 41px;
+    height: 36px;
+    padding: 4px 12px 0 8px;
+    font-size: 20px;
+    color: #2874f0;
+    text-align: center;
+    line-height: 1px;
+    border-radius: 0;
+    /* margin-left: -10px; */
+    background-color: #fff;
+}
+button.btn-light.btn:hover{
+    border-color: transparent;
+}
+button.btn.btn-light{
+    border-radius: 0;
+    color: #2874f0;
+    padding: 3px 40px;
+    font-weight: 500;
+}
+div#navbarScroll{
+    flex-grow: 0;
+}
+a.nav-link{
+    color: white;
+    margin: 0 20px;
+}
+.nav-link:focus, .nav-link:hover{
+    color: #fff;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: #fff;
+}
+
+.card-1{
+    background-image: url('image2.jpg');
+    width: 230px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px bottom;
+}
+.card-2{
+    background-image: url('phone.avif');
+    width: 230px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px bottom;
+}
+.card-3{
+    background-image: url('glasses.jpeg');
+    width: 230px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px bottom;
+}
+.card-body{
+    padding: 50px 30px 30px 30px;
+    text-align: center;
+}
+.card-title{
+    font-size: 30px;
+    font-weight: 400;
+    color: #212121;
+}
+.card-1 button{
+    margin-top: 24px;
+    background-color: #2874f0;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    border: none;
+    border-radius: 0px;
+    font-size: 13px;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+.electronic_pro{
+    padding: 32px;
+
+}
+.electronic{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    color: #212121;
+}
+.electronic_pro p{
+    text-align: center;
+    font-size: 14px;
+    color: #9f9e9e;
+    margin-bottom: 0;
+}
+
+.product-show{
+   padding: 0 !important;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+
+.card-title {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+    color: #212121;
+    margin-bottom: 0px;
+}
+.list-group-item {
+    font-size: 14px;
+    padding-top: 8px;
+    color: #388e3c;
+    font-weight: 400;
+}
+p.card-text {
+    font-size: 14px;
+    padding-top: 8px;
+    color: #9f9e9e;
+}
+.Add_title{
+    margin-bottom: 8px;
+    text-decoration: none;
+    display: inline-block;
+}
+.add_button span{
+    margin: 0 5px;
+}
+.add_button{
+    margin-bottom: 8px;
+}
+.Pricedetail{
+    border: 2px solid;
+    margin-left: 16px;
+}
+.Pricedetail span{
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #878787;
+    padding: 13px 24px;
+    display: block;
+}
+.price_data, .amount{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 0 24px;
+    color: #212121;
+    font-weight: 400;
+}
+.price_data span, .amount span{
+    padding: 0;
+    border-bottom: 0;
+    color: #212121;
+    font-weight: 400;
+}
+.price_da span{
+    color: #388e3c;
+}
+.amount, .amount span{
+    font-size: 18px;
+    font-weight: 500;
+}
+.amount p{
+    margin-bottom: 0;
+}
